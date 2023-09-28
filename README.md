@@ -47,6 +47,16 @@ public class DemoApplication {
 }
 ```
 
+Добавьте схему GraphQL:
+
+В папке resources/graphql создайте файл `schema.graphqls` с содержимым
+
+```
+type Query {
+    hello(name: String): String!
+}
+```
+
 ## Step 3: Try it
 
 Let’s build and run the program. Open a command line (or terminal) and navigate to the folder where you have the project files. We can build and run the application by issuing the following command:
