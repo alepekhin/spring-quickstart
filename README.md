@@ -108,5 +108,15 @@ $ curl -X POST -H "Content-Type: application/json" -d '{"query": "query Hello { 
 {"data":{"hello":"Hello Amy!"}}
 ```
 
+## Что дальше
+
+Пишите бизнес-логику, наращивайте количество енд-пойнтов, меняейте соответсвенно схему
+
+Более полный пример находится тут https://github.com/alepekhin/spring-boot-graphql
+
+
+
+
+
 
 
